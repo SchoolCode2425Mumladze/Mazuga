@@ -5,9 +5,13 @@ import time
 import paint
 from voprose import voprosis
 
-screen = turtle.Screen()
+def onKey1():
+    print('hi')
 
 
+screen = t.Screen()
+screen.onkey(onKey1, "z")
+screen.listen()
 
 t.bgcolor('grey')
 t.speed(0)
@@ -71,3 +75,5 @@ for i in range(10):
     t.write(voprosis[i], font=('Arial', 25, 'normal'))
 
     turtle.clear()
+
+t.mainloop()
