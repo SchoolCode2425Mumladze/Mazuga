@@ -1,7 +1,7 @@
 import random as r
 import time
 import turtle as t
-from cod_game import tipe
+from codgame import tipe
 voprosis=[]
 index=[]
 voprosis_tape=["какой формы фигура номер один?","какой формы фигура номер два?","какой формы фигура номер три?","какой формы фигура номер четыре?","какой формы фигура номер пять?","какой формы фигура номер шесть?"]
@@ -51,4 +51,4 @@ def otvet():
     screen.listen()
 for i in range(4):
     if a==tipe[index]:
-        pass
+        print(1)
